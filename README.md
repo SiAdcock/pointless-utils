@@ -1,12 +1,12 @@
 # Pointless Utils
 
-Some pointless utils built with TypeScript, for experimentation purposes. Generated JavaScript is packaged into CommonJS modules.
+Some pointless utils built with TypeScript, for experimentation purposes. Generated JavaScript is packaged into UMD modules.
 
 ## Install
 
 This project requires [Gulp](http://gulpjs.com/) to be installed globally on your machine.
 
-Not currently on npm. Add the following to your package.json `dependencies`:
+We are not currently on npm. Add the following to your package.json `dependencies`:
 
 ```
 "pointless-utils": "git+ssh://git@github.com/SiAdcock/pointless-utils.git"
