@@ -23,8 +23,6 @@ $ npm install
 ### TypeScript
 
 ```
-/// <reference path="node_modules/pointless-utils/typings/index.d.ts" />
-
 import _ = require('pointless-utils');
 ```
 
