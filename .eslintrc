@@ -1,9 +1,12 @@
 {
   "env": {
     "node": true,
-    "es6": true
+    "es6": true,
+    "amd": true
   },
   "rules": {
-    "quotes": ["single", 2]
+    "quotes": ["single", 2],
+    "strict": 0,
+    "curly": 0
   }
 }

@@ -8,7 +8,7 @@ gulp.task('tsc', () => {
   const tscResult = gulp.src(['**/*.ts', '!node_modules/**'])
     .pipe(tsc({
       declaration: true,
-      module: 'commonjs'
+      module: 'umd'
     }));
 
   tscResult.dts.pipe(gulp.dest('typings'));
