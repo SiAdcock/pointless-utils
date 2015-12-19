@@ -1,9 +1,10 @@
-const noodles = function (obj: any) {
-  if (!obj.food) {
-    obj.food = 'noodles'
-  }
+const noodles: (obj: any) => any =
+  function (obj: any): any {
+    if (!obj.food) {
+      obj.food = 'noodles'
+    }
 
-  return obj;
-};
+    return obj;
+  };
 
 export = noodles;

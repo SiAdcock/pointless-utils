@@ -5,12 +5,14 @@ const tsc = require('gulp-typescript');
 
 gulp.task('default', ['tsc']);
 gulp.task('tsc', () => {
-  return gulp.src(['**/*.ts', '!node_modules/**'])
+  const tscResult = gulp.src(['**/*.ts', '!node_modules/**'])
     .pipe(tsc({
       declaration: true,
       module: 'commonjs'
-    }))
-    .pipe(gulp.dest(__dirname));
+    }));
+
+  tscResult.dts.pipe(gulp.dest('typings'));
+  tscResult.js.pipe(gulp.dest(__dirname));
 });
 gulp.task('watch', () => {
   return gulp.watch('**/*.ts', ['tsc']);
