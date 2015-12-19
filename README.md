@@ -12,7 +12,7 @@ Not currently on npm. Add the following to your package.json `dependencies`:
 "pointless-utils": "git+ssh://git@github.com/SiAdcock/pointless-utils.git"
 ```
 
-Then run
+Then run:
 
 ```
 $ npm install
@@ -47,8 +47,8 @@ Please feel free to add more pointless utils. Contribution guidelines:
 1. All code must initially written in TypeScript
 2. One util function per file
 3. Try to categorise utils using a sensible directory structure (e.g. array utils might appear under an `array` directory)
-4. All utils should also be exposed in `index.js`
-5. Transpile to JavaScript and generate .d.ts files using `npm run build`
+4. All utils should also be exposed in `index.ts`
+5. Transpile to JavaScript and generate `.d.ts` files using `npm run build`
 6. Check in all generated files
 
 ## Issues
