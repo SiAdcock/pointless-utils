@@ -6,6 +6,10 @@ Some pointless utils built with TypeScript, for experimentation purposes. Genera
 
 This project requires [Gulp](http://gulpjs.com/) to be installed globally on your machine.
 
+```
+$ npm install gulp -g
+```
+
 We are not currently on npm. Add the following to your package.json `dependencies`:
 
 ```
